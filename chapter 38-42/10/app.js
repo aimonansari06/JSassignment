@@ -1,0 +1,2 @@
+var cash=Number(prompt("Enter the amount to be withdrawn: "))
+document.write("You will have "+Math.floor(cash/100)+ " hundred notes "+ Math.floor((cash%100)/50)+" fifty notes and "+(((cash%100)%50)/10)+" ten notes")
